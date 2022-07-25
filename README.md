@@ -34,7 +34,7 @@ Magnetic Resonance Imaging (MRI) is the most common diagnostic tool brain tumors
 <img alt="3D rendering produced by T2 MRI scan" src="images/t29_143.gif" width=250>  
 <sub> <b> Figure 2: </b> (Left) Basic MRI workflow. Slices are taken axially at 1mm increments, creating the 3-dimensional rendering (right). Note that this is only one of four commonly-used pulse sequences used for tumor segmentation. </sub>
 
-### MRI pre-processing ([code](https://github.com/naldeborgh7575/brain_segmentation/blob/master/code/brain_pipeline.py))
+### MRI pre-processing ([code](https://github.com/adarsh4146/brain_segmentation/blob/master/code/brain_pipeline.py))
 
 One of the challenges in working with MRI data is dealing with the artifacts produced either by inhomogeneity in the magnetic field or small movements made by the patient during scan time. Oftentimes a bias will be present across the resulting scans (Figure 3), which can effect the segmentation results particularly in the setting of computer-based models.
 
